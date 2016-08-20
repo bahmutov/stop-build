@@ -8,6 +8,7 @@
     "pre-git": {
       "commit-msg": "simple",
       "pre-commit": [
+        "npm run pretest",
         "npm run deps",
         "npm run ban"
       ],
