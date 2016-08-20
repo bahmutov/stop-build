@@ -9,10 +9,10 @@
       "commit-msg": "simple",
       "pre-commit": [
         "npm run deps",
-        "npm test",
         "npm run ban"
       ],
       "pre-push": [
+        "npm test",
         "npm run secure",
         "npm run license",
         "npm run ban -- --all",
