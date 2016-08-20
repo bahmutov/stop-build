@@ -29,6 +29,9 @@
     "src/*.js",
     "!src/*-spec.js"
   ],
+  "bin": {
+    "stop-build": "src/index.js"
+  },
   "homepage": "https://github.com/bahmutov/stop-build#readme",
   "keywords": [
     "build",
@@ -72,5 +75,8 @@
     "standard": "8.0.0-beta.5",
     "standard-format": "2.2.2",
     "semantic-release": "^4.3.5"
+  },
+  "dependencies": {
+    "ggit": "1.11.0"
   }
 }

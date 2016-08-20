@@ -8,15 +8,33 @@
 [![semantic-release][semantic-image] ][semantic-url]
 [![js-standard-style][standard-image]][standard-url]
 
+## Install
+
+Install as a dev tool
+
+```
+npm i -D stop-build
+```
+
+## Use
+
+Add to your CI script after the build step. If the build step changes files
+that are Git tracked, the `stop-build` command will exit with non-zero status
+breaking the build. For example, `.travis.yml` file
+
+```yaml
+script:
+  - npm run build
+  - $(npm bin)/stop-build
+```
+
 ### Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2016
 
-
 * [@bahmutov](https://twitter.com/bahmutov)
 * [glebbahmutov.com](http://glebbahmutov.com)
 * [blog](http://glebbahmutov.com/blog)
-
 
 License: MIT - do anything with the code, but don't blame me if it does not work.
 
