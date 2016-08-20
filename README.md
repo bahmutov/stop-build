@@ -66,9 +66,9 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-[npm-icon]: https://nodei.co/npm/stop-build.png?downloads=true
+[npm-icon]: https://nodei.co/npm/stop-build.svg?downloads=true
 [npm-url]: https://npmjs.org/package/stop-build
-[ci-image]: https://travis-ci.org/bahmutov/stop-build.png?branch=master
+[ci-image]: https://travis-ci.org/bahmutov/stop-build.svg?branch=master
 [ci-url]: https://travis-ci.org/bahmutov/stop-build
 [semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-url]: https://github.com/semantic-release/semantic-release
