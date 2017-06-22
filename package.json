@@ -11,7 +11,7 @@
         "npm run pretest",
         "npm run deps",
         "npm run ban",
-        "git add"
+        "git add ."
       ],
       "pre-push": [
         "npm test",
