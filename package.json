@@ -76,6 +76,7 @@
     "standard": "10.0.2"
   },
   "dependencies": {
-    "ggit": "1.15.1"
+    "ggit": "1.15.1",
+    "pluralize": "5.0.0"
   }
 }

@@ -40,6 +40,14 @@ script:
   - $(npm bin)/stop-build
 ```
 
+Prints changes and exits with code 1 if any found
+
+```sh
+⚠️ there are 2 changed files
+M package.json
+M src/index.js
+```
+
 ### Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2016
