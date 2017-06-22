@@ -5,7 +5,7 @@
 const ggit = require('ggit')
 const pluralize = require('pluralize')
 
-function notEmpty(x) {
+function notEmpty (x) {
   return Boolean(x)
 }
 

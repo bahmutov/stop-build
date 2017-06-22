@@ -1,6 +1,6 @@
 {
   "name": "stop-build",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0-development",
   "description": "Exits with non-zero code if there are modified Git files",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "bugs": "https://github.com/bahmutov/stop-build/issues",
@@ -72,7 +72,7 @@
     "mocha": "3.4.2",
     "nsp": "2.6.3",
     "pre-git": "3.10.0",
-    "semantic-release": "6.3.6",
+    "semantic-release": "^6.3.6",
     "standard": "10.0.2"
   },
   "dependencies": {
