@@ -10,7 +10,8 @@
       "pre-commit": [
         "npm run pretest",
         "npm run deps",
-        "npm run ban"
+        "npm run ban",
+        "git add"
       ],
       "pre-push": [
         "npm test",

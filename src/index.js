@@ -15,7 +15,7 @@ function changedFileInfo (change) {
 
 function changesFiles (changes) {
   // see ggit.changedFiles docs
-  const all = []
+    const all = []
     .concat(changes.A)
     .concat(changes.C)
     .concat(changes.M)
